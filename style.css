@@ -9,3 +9,52 @@ h2 {
     font-size: 48px;
     padding-top: 80px;
 }
+
+#main {
+    margin: 0 auto;
+    width: 75%
+}
+
+#input {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+button {
+    padding: 10px;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#add {
+    background-color: olivedrab;
+}
+
+#clear {
+    background-color: blue;
+}
+
+button.remove {
+    padding: 5px;
+    margin-left: 20px;
+    background-color: slategray;
+    opacity: 0.5;
+}
+
+button.remove:hover {
+    background-color: olivedrab;
+}
+
+ul {
+    width: 75%;
+    margin: 20px auto;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
